@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="navbar" id="navbar">
+    <a href="#" class="nav-item">Home</a>
+    <a href="#" class="nav-item">About</a>
+    <a href="#" class="nav-item">Services</a>
+    <a href="#" class="nav-item">Contact</a>
+</div>
+
+<div class="content">
+    <h1>Welcome to my website</h1>
+
+    <br><br>
+    
+
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        
+        <label for="experience">Experience:</label>
+        <textarea id="experience" name="experience" placeholder="Tell us about your experience"></textarea>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        
+        <label for="interests">Interests:</label>
+        <br><br>
+        <input type="checkbox" id="interest1" name="interest1" value="coding">
+        <label for="interest1">Coding</label>
+        <input type="checkbox" id="interest2" name="interest2" value="reading">
+        <label for="interest2">Reading</label>
+        <input type="checkbox" id="interest3" name="interest3" value="music">
+        <label for="interest3">Music</label>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <!-- Add your website content here -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
